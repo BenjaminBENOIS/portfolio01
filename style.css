@@ -1,0 +1,68 @@
+body {
+    scroll-behavior: smooth;
+    background-image: url('fond2.jpg');
+    
+}
+
+p {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+}
+
+.navbar-brand {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+
+  }
+
+h1 {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.1rem #ffffff);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
+}
+
+.carousel-inner img {
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.carousel-control-prev {
+    margin: 250px;
+}
+
+.carousel-control-next {
+    margin: 250px;
+}
+
